@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/hyphen7/app-service-sample#readme",
   "dependencies": {
+    "applicationinsights": "^2.4.1",
     "express": "^4.18.2"
   }
 }
