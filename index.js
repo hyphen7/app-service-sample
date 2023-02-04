@@ -6,7 +6,7 @@ const PORT = Number(process.env.PORT) || 3000;
 appInsights.setup().setAutoCollectConsole(true, true).start();
 
 app.get("/", (req, res) => {
-    console.log("Request /");
+    console.log("Request /", req.ip);
     res.sendStatus(200);
 });
 
